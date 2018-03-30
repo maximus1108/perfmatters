@@ -28,7 +28,7 @@ window.addEventListener("load", function(event) {
   var gaScriptAsync =  document.createElement('script');
 
   gaScriptAsync.setAttribute('async', '');
-  gaScriptAsync.setAttribute('src', 'http://www.google-analytics.com/analytics.js');
+  gaScriptAsync.setAttribute('src', 'https://www.google-analytics.com/analytics.js');
 
   body.appendChild(gaScriptAsync);
 
