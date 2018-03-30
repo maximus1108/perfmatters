@@ -11,4 +11,10 @@ function logCRP() {
 
 window.addEventListener("load", function(event) {
   logCRP();
+
+  var head = document.querySelector('head');
+  var link = document.createElement('link');
+  link.setAttribute('rel', 'stylesheet');
+  link.setAttribute('href', '//fonts.googleapis.com/css?family=Open+Sans:400,700');
+  head.appendChild(link);
 });
